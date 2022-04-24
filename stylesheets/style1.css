@@ -30,6 +30,7 @@ p {
   background-color: rgba(255, 255, 255, 0.18);
   border-radius: 7px;
   text-shadow: 2px 2px 0 rgb(163, 121, 149);
+  display: inline;
 }
 
 #self-bio {
