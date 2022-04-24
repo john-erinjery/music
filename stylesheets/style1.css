@@ -11,8 +11,6 @@ body {
     "Lucida Sans", Arial, sans-serif;
   color: white;
   line-height: max-content;
-  display: grid;
-  place-items: center;
 }
 
 .grid {
