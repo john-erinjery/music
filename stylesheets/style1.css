@@ -1,0 +1,138 @@
+body {
+  background-color: white;
+  background-image: url("../pictures/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-blend-mode: overlay;
+  font-size: 26px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  line-height: max-content;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+p {
+  font-weight: bold;
+}
+.name-box {
+  font-size: 6vw;
+  padding: 10px;
+  position: relative;
+  width: max-content;
+  text-align: center;
+  margin: 3px;
+  background-color: rgba(255, 255, 255, 0.18);
+  border-radius: 7px;
+  text-shadow: 2px 2px 0 rgb(163, 121, 149);
+}
+
+#self-bio {
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  /* text-shadow: 1px 1px 0 rgb(100, 92, 98); */
+  /* -webkit-text-stroke: 1px rgba(255, 255, 255, 1); */
+}
+#pfp {
+  height: 155px;
+  width: 155px;
+  border-radius: 42%;
+  margin: 7px;
+}
+.playlist-name {
+  position: relative;
+  font-size: 4.7vw;
+  padding: 7px;
+  margin: 5px;
+  margin-left: 2px;
+  background-color: rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  width: 75vw;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-shadow: 2px 2px 0 rgb(163, 121, 149);
+}
+
+/* audio styling begins here */
+audio::-webkit-media-controls-panel {
+  background-color: rgb(241, 241, 241);
+}
+audio::-webkit-media-controls-mute-button:hover {
+  background-color: rgb(194, 188, 188);
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgb(194, 188, 188);
+  border-radius: 50%;
+}
+audio::-webkit-media-controls-current-time-display {
+  color: rgb(0, 0, 0);
+  font-weight: 575;
+  font-size: 16px;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: rgb(0, 0, 0);
+  font-weight: 575;
+  font-size: 16px;
+}
+audio::-webkit-media-controls-timeline {
+  background-color: rgb(255, 255, 255);
+  margin: 4px;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+audio {
+  width: 83%;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.music-title {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  padding: 7px;
+  font-size: 4.5vw;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.137);
+  height: max-content;
+  width: max-content;
+  text-shadow: 1px 1px 0 rgb(163, 121, 149);
+  text-align: left;
+}
+#home-btn {
+  font-size: 3vw;
+  position: fixed;
+  height: max-content;
+  width: max-content;
+  right: 10px;
+  top: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 10px;
+  margin: 5px;
+  color: white;
+}
+
+.text-contents {
+  position: static;
+  width: 100vw;
+  left: 0px;
+  height: max-content;
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 20px;
+}
