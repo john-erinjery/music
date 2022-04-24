@@ -27,14 +27,13 @@ p {
   font-size: 6vw;
   padding: 10px;
   position: relative;
-  
+  text-align: center;
   width: max-content;
   margin: 3px;
   background-color: rgba(255, 255, 255, 0.18);
   border-radius: 7px;
   text-shadow: 2px 2px 0 rgb(163, 121, 149);
-  display: grid;
-  place-items: center;
+
 }
 
 #self-bio {
