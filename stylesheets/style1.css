@@ -113,6 +113,8 @@ audio {
   width: max-content;
   text-shadow: 1px 1px 0 rgb(163, 121, 149);
   text-align: left;
+  display: grid;
+  place-items: left;
 }
 #home-btn {
   font-size: 3vw;
