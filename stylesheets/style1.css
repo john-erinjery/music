@@ -1,8 +1,8 @@
 body {
   background-color: white;
-  background-image: url("../pictures/background.jpg");
+  background-image: url("https://i.imgur.com/xCw6Mts.png");
   background-size: cover;
-  background-position: center center;
+  background-position: right center;
   background-attachment: fixed;
   background-color: rgba(255, 255, 255, 0.1);
   background-blend-mode: overlay;
