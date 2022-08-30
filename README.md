@@ -1,4 +1,5 @@
-# music
-Hello! This is the first website i have ever hosted on github or anywhere else.
-this website was built mainly for me to practise what i had learned 
-this site might look a bit weird in a smart phone, sry abt that 
+# Music
+Hello! This is the very first website I am hosting. Its nothing very special but I am proud of it nevertheless!
+
+# Purpose
+i decided to build this website mainly for putting the HTML, CSS and JavaScript that I had learnt to the test.
